@@ -8,5 +8,46 @@
     padding: 13px;
     box-shadow:0px 0px 10px 0px #6F6F6F40;
     text-align: center;
-    border: none;
+    border: none; 
 }
+
+   .section {
+    left: 150px;
+    position: absolute;
+    height: 255px;
+    background-image: url(assens/Bacground.img.jpg);
+    background-repeat: space;
+    background-position: center center;
+    margin-block-start: 50vh;
+   }
+      
+ .textTitle { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 50vh;
+ }
+
+ h2 { 
+  font-size: 36px;
+  line-height: 52px;
+  text-align: center;
+ }
+
+ article > p{
+  color: #999999;
+  line-height:25px;
+  text-align: center;
+ }
+ 
+.threeButton { 
+  width: 200px;
+  height: 45px;
+  position: relative;
+  top: 50%;
+  left: 40%
+}   
+ 
+
