@@ -1,0 +1,12 @@
+/* базовый класс для кнопки */
+.baseButton { 
+    background-color:#4985FF;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 30px;
+    color: white;
+    padding: 13px;
+    box-shadow:0px 0px 10px 0px #6F6F6F40;
+    text-align: center;
+    border: none;
+}
