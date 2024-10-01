@@ -1,0 +1,44 @@
+/* базовый класс для кнопки */
+.baseButton { 
+    background-color:#4985FF;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 30px;
+    color: white;
+    padding: 13px;
+    box-shadow:0px 0px 10px 0px #6F6F6F40;
+    text-align: center;
+    border: none;
+}  
+
+.footer-container { 
+    color:#999999;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 43px;
+}
+ 
+li { 
+    list-style: none;
+}
+
+a {  
+    color:#999999;
+    text-decoration: none;
+}
+
+ b { 
+    color: #000000;
+ }
+
+ hr { 
+    margin-top: 70px;
+ }
+
+ footer p { 
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
