@@ -57,7 +57,7 @@ a {
  }
 
 
-.footer_wrapLinksList > h1 { 
+.footer_wrapLinksList > b { 
     color: #000000;
     font-size:18px;
     line-height:22px;  
@@ -71,7 +71,7 @@ a {
     color: grey;
 }
   
-.footer_listItem >h2 { 
+.footer_listItem >b { 
     color:#000000;
     font-size:18px;
     line-height:22px; 
@@ -108,7 +108,7 @@ img {
     color: grey;
 }
 
-.footer_linksCell > h3 { 
+.footer_linksCell > b { 
     color:#000000;
     font-size:18px;
     line-height:22px;   
