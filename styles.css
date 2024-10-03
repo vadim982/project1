@@ -19,14 +19,11 @@
     .footer_line { 
     flex-direction: column;
     }
-<<<<<<< HEAD
     
     .footer_icon { 
      width: 10px;
      height: 10px;
     }
-=======
->>>>>>> d45fb2c10ec91e06fb79d94e956d8bf08e0ca916
 
     li { list-style: none;
      }
