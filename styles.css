@@ -11,12 +11,6 @@
     border: none;
 }  
 
-.footer_wrapLinksList > li > img { 
-    width: 10px;
-    height: 10px;
-    margin-top: 2px;
-}
-
 .footer { 
     display: flex;
     justify-content: space-around;
