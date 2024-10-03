@@ -9,4 +9,95 @@
     box-shadow:0px 0px 10px 0px #6F6F6F40;
     text-align: center;
     border: none;
-}
+}  
+
+.footer { 
+    display: flex;
+    justify-content: space-around;
+    }
+
+    .footer_line { 
+    flex-direction: column;
+    }
+    
+    .footer_icon { 
+     width: 10px;
+     height: 10px;
+    }
+
+    li { list-style: none;
+     }
+    
+     a {  text-decoration: none;
+    }
+
+   .footer_innerContainer { 
+      color: grey;
+      text-align: center;
+      position: absolute;
+      top:400px;
+      justify-content: center;
+      align-items: center;
+      height: 15px;
+      font-size: 14px;
+   }
+  
+   .footer_wrapLinksList { 
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        gap: 30px;
+   }
+
+   .footer_wrapLinksList >h4 { 
+        color: #000000;
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 40px;
+   }
+
+   .footer_wrapLinksList >ul {
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        color: gray;
+        width: 245px;
+        position: relative;
+        bottom: 15px;
+   }
+
+   .footer_wrapLinksList >a {
+        display: flex;
+        flex-direction: column;
+        color: grey;
+   }
+
+   .footer_wrapLinksList >li {
+        display: flex;
+        color: grey;
+   }
+
+  .footer_wrapLinksList a:visited {
+    color: #999999;
+  }
+  
+  .footer_wrapLinksList a:hover  { 
+    text-decoration: underline 2px royalblue;
+  }
+
+  .footer_wrapLinksList li:hover { 
+    text-decoration: underline 2px royalblue;
+  }
+
+   .footer_line {
+    width: 1110px;
+    right: 200px;
+    }
+
+    .footer_subtitle:hover { 
+        text-decoration: underline 2px #56a3cf;
+        padding-bottom:4px;
+    }
+
+
