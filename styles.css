@@ -9,4 +9,108 @@
     box-shadow:0px 0px 10px 0px #6F6F6F40;
     text-align: center;
     border: none;
-}
+}  
+
+body { 
+    font-family: "Montserrat", sans-serif;
+    margin: 0px;
+    }
+        
+  a { 
+    text-decoration: none;
+  }
+
+    .header_line { 
+    top: 70px;
+    opacity: 50%;
+    margin-top: 40px;
+    position: absolute;
+    width: 1920px;
+    border: 1px solid #A1A1A1;    
+    }
+
+    .header { 
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),  url(/assets/projectImg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 1920px;
+    height: 900px;
+    position: absolute;
+    }
+
+    .header_nav { 
+    position: absolute;
+    width: 583px;
+    height: 59px;
+    left: 932px;
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    gap: 40px;
+    color: white; 
+    padding-top: 40px;
+    }
+    
+    .header_nav a::after {
+        content: '';
+        width: 50vw;
+        position: absolute;
+        background: white;
+        padding-top: 3px;
+        left: 20px;
+        margin-top: 50px;
+    }
+
+    .header_nav a:visited { 
+        color: white;
+    }
+
+
+    li { 
+    list-style: none;
+    }
+  
+    .header_list{ 
+    margin-top: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    }
+
+    .header_list >h1 { 
+        position: absolute;
+        width: 829px;
+        height: 111px;
+        left: 545px;
+        top: 359px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-size: 48px;
+        line-height: 64px;
+        text-align: center;
+        padding-top: 20px;
+        font-size: 48px;
+        line-height:64px;
+        text-align: center;
+    }
+
+    .header_list > p {
+    padding-top: 60px;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    }
+
+    .header_buttonProject { 
+    margin-top: 50px;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    width: 200px;
+    height: 45px;
+    position: absolute;
+    left: 860px;
+    top: 520px;
+    }        
