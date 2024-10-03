@@ -1,4 +1,4 @@
-/* базовый класс для кнопки */
+
 .baseButton { 
     background-color:#4985FF;
     font-size: 16px;
@@ -10,14 +10,19 @@
     text-align: center;
     border: none;
 }  
+      
+.footer { 
+  background-color: #F6F6F8;
+  height: 413px;
+}         
 
-.footer-container { 
-    color:#999999;
+.footer_innerContainer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 43px;
-}
+    gap: 43px; 
+    color: grey;
+} 
  
 li { 
     list-style: none;
@@ -28,17 +33,83 @@ a {
     text-decoration: none;
 }
 
- b { 
-    color: #000000;
- }
-
- hr { 
+ .footer_line { 
     margin-top: 70px;
  }
 
- footer p { 
+ .footer_subtitle { 
     color: grey;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 15px;
+    font-size: 14px;
+    padding-top: 30px;
+ }
+
+ .footer_wrapLinksList { 
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: grey;
+    font-size: 14px;
+    padding-bottom: 45px;
+ }
+
+
+.footer_wrapLinksList > h1 { 
+    color: #000000;
+    font-size:18px;
+    line-height:22px;  
+}
+
+.footer_listItem { 
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 14px;
+    color: grey;
+}
+  
+.footer_listItem >h2 { 
+    color:#000000;
+    font-size:18px;
+    line-height:22px; 
+}
+
+ .footer_linksList > h4 { 
+    color:#000000;
+    font-size:18px;
+    line-height:22px;  
+ }
+
+.footer_linksList > ul {  
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+
+.footer_linksList  .footer_links:hover{
+    color: #000000; 
+} 
+
+img { 
+    padding-right: 10px;
+}
+
+.footer_linksCell { 
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 14px;
+    color: grey;
+}
+
+.footer_linksCell > h3 { 
+    color:#000000;
+    font-size:18px;
+    line-height:22px;   
  }
